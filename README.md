@@ -40,5 +40,5 @@ Check the implementation in the following order. <br/>
 2. In `getTopCharacters()` method at `app/actions/FooterActions.js`; the method internally triggers either a success or failure event. <br/>
 3. In `app/store/FooterStore.js`; the datastore updates its state upon receiving the corresponding event via method `onGetTopCharactersSuccess()`. <br/>
 4. This change of state in FooterStore is acknowledged by the view Footer, since the view is configured to Listen to FooterStore at `componentDidMount()` in `app/components/Footer.js`. <br/>
-5. `alt` is the nodejs based javascript implementation of the react-flux based architecture. <br/>
+5. `alt` is the nodejs based javascript implementation of the react-flux based architecture used in this example. Other alternative flux implementations include `redux` with `redux-thunks`. <br/>
 6. Have fun! You will understand about react-flux architecture better when you read a related reference from now onwards. <br/>
