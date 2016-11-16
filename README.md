@@ -32,7 +32,7 @@ Check the implementation in the following order. <br/>
 3. `app/routes.js` embeds the 2 React components; App and Home into a single react application. <br/>
 4. In `app/components/App.js`; the react component App embeds Footer which is another react component. The Footer component is used to demonstrate flux event flow. <br/>
 
-# Flux Architecture with an Example
+# Flux Architecture (Uni-Directional Event Flow) with an Example
 
   `-> View -> Action -> Store ->`<br/>
   `<----------------------------`<br/><br/>
