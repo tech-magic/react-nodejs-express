@@ -15,6 +15,7 @@ Here is a sample application on how you could integrate React with Nodejs, expre
 2. bower install
 3. gulp (Press Ctrl+C after completion)
 4. npm start
+5. Default applcation port is 3000, `http://localhost:3000`
 
 # Running Project during Development
 
@@ -23,6 +24,7 @@ Here is a sample application on how you could integrate React with Nodejs, expre
 3. Open a separate terminal, navigate to project root directory and type `gulp`
 4. In another terminal navigate to project root directory and type `npm run watch`
 5. In this way you could see the development changes without restarting the node app again and again. 
+6. Default applcation port is 3000, `http://localhost:3000`
 
 # Nodejs -> Express -> React Flow
 
